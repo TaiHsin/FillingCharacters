@@ -15,6 +15,7 @@
 		5CB4D28A2201A430004CE8B7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CB4D2892201A430004CE8B7 /* main.m */; };
 		5CB4D2942201A430004CE8B7 /* FillingCharactersTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CB4D2932201A430004CE8B7 /* FillingCharactersTests.m */; };
 		5CB4D29F2201A430004CE8B7 /* FillingCharactersUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CB4D29E2201A430004CE8B7 /* FillingCharactersUITests.m */; };
+		5CB4D2AE2201A6A9004CE8B7 /* Characters.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CB4D2AD2201A6A9004CE8B7 /* Characters.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		5CB4D29A2201A430004CE8B7 /* FillingCharactersUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FillingCharactersUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5CB4D29E2201A430004CE8B7 /* FillingCharactersUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FillingCharactersUITests.m; sourceTree = "<group>"; };
 		5CB4D2A02201A430004CE8B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5CB4D2AC2201A692004CE8B7 /* Characters.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Characters.h; sourceTree = "<group>"; };
+		5CB4D2AD2201A6A9004CE8B7 /* Characters.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Characters.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,8 @@
 				5CB4D2852201A430004CE8B7 /* LaunchScreen.storyboard */,
 				5CB4D2882201A430004CE8B7 /* Info.plist */,
 				5CB4D2892201A430004CE8B7 /* main.m */,
+				5CB4D2AC2201A692004CE8B7 /* Characters.h */,
+				5CB4D2AD2201A6A9004CE8B7 /* Characters.m */,
 			);
 			path = FillingCharacters;
 			sourceTree = "<group>";
@@ -265,6 +270,7 @@
 				5CB4D27F2201A42F004CE8B7 /* ViewController.m in Sources */,
 				5CB4D28A2201A430004CE8B7 /* main.m in Sources */,
 				5CB4D27C2201A42F004CE8B7 /* AppDelegate.m in Sources */,
+				5CB4D2AE2201A6A9004CE8B7 /* Characters.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
